@@ -123,4 +123,18 @@ nav ul li {
 }
 
 /* MAIN */
+/* Grey Half Section */
+.half-section {
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 40px;
+}
+
+.half-section h2 {
+    padding-bottom: 10px;
+}
+
+.half-section h4 {
+    color: #808080;
+}
 
