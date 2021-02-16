@@ -1,0 +1,32 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 100%;
+    width: auto;
+    display: block;
+}
+
+/* COMMON */
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.section {
+    height: 550px;
+}
+
+/* HEADER */
+header {
+    background-color: #0c325a;
+    background-image: url('../img/background-header.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: 115% 110%;
+}
+
