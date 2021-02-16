@@ -34,6 +34,16 @@ body {
     float: left;
 }
 
+/* Green Buttons */
+.button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #7cbb02;
+    border: 1px solid #548a21;
+    border-radius: 5px;
+}
+
+
 /* HEADER */
 header {
     background-color: #0c325a;
@@ -41,6 +51,7 @@ header {
     background-size: 900px;
     background-repeat: no-repeat;
     background-position: 115% 110%;
+    position: relative;
 }
 
 .nav-text {
@@ -57,14 +68,15 @@ header {
 
 .header-firstmenu {
     width: 50%;
+    margin-top: 25px;
 }
 
 .header-secondmenu {
     width: 40%;
+    margin-top: 20px;
 }
 
 .header-firstmenu, .header-secondmenu {
-    margin-top: 20px;
     text-align: center;
 }
 
@@ -72,11 +84,16 @@ header {
 .login {
     display: inline-block;
     border: 1px solid white;
-    padding: 5px 20px;
+    padding: 10px 25px;
     border-radius: 5px;
 }
 
-/* First Menu Elements Setting */
+/* Second Menu Green Button */
+.header-secondmenu .button {
+    padding: 10px 20px;
+}
+
+/* First Menu Elements Settings */
 nav ul li {
     display: inline-block;
     list-style-type: none;
@@ -88,4 +105,22 @@ nav ul li {
     color: yellow;
 }
 
+/* Title */
+.title {
+    color: white;
+    width: 40%;
+    position: absolute;
+    bottom: 160px;
+    left: 130px;
+}
+
+.title h1 {
+    font-size: 40px;
+}
+
+.title .button {
+    margin-top: 20px;
+}
+
+/* MAIN */
 
