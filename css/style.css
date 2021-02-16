@@ -232,7 +232,15 @@ nav ul li {
     color: blue;
 }
 
+/* FOOTER */
+.footer {
+    background-color: #d3d3d3;
+    height: 137px;
+}
 
+footer .col h2 {
+    margin: 25% 0;
+}
 
 
 
