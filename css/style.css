@@ -152,10 +152,18 @@ nav ul li {
 /* IMG Container */
 .img-container {
     width: 60%;
+    height: 30%;
     margin: auto;
     object-fit: contain;
     margin-top: 50px;
 }
+
+.img-container img {
+    height: 100%;
+}
+
+/* Columns Titles */
+
 
 
 
