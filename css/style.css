@@ -171,7 +171,7 @@ nav ul li {
 }
 
 /* Columns Titles */
-.col h2 {
+.first-section .col h2 {
     margin-top: 20px;
     font-size: 22px;
     color: #7cbb02;
@@ -190,6 +190,50 @@ nav ul li {
 .col h2, p {
     line-height: 28px;
 }
+
+/* RULER */
+.ruler {
+    margin: 0 2%;
+}
+
+/* SECOND SECTION */
+.second-section .col-left {
+    position: relative;
+}
+
+.second-section .col-left img {
+    position: absolute;
+    top: 40px;
+    left: -20px;
+}
+
+.second-section .col {
+    width: 50%;
+    height: 100%;
+}
+
+/* Second Section Text */
+.second-section-text {
+    width: 70%;
+    margin-top: 50px;
+}
+
+.second-section-text h2 {
+    margin-bottom: 20px;
+}
+
+.second-section-text a {
+    padding: 20px 0;
+}
+
+.placement-link {
+    display: block;
+    margin: 20px 0;
+    color: blue;
+}
+
+
+
 
 
 
