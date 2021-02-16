@@ -6,12 +6,15 @@
 }
 
 img {
-    height: 100%;
-    width: auto;
+    width: 100%;;
     display: block;
 }
 
 /* COMMON */
+body {
+    font-family: "Roboto";
+}
+
 .container {
     width: 1024px;
     margin: 0 auto;
@@ -19,6 +22,16 @@ img {
 
 .section {
     height: 550px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
 }
 
 /* HEADER */
@@ -29,4 +42,50 @@ header {
     background-repeat: no-repeat;
     background-position: 115% 110%;
 }
+
+.nav-text {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.header-logo {
+    width: 10%;
+    padding-top: 10px;
+}
+
+.header-firstmenu {
+    width: 50%;
+}
+
+.header-secondmenu {
+    width: 40%;
+}
+
+.header-firstmenu, .header-secondmenu {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Login Button */
+.login {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+/* First Menu Elements Setting */
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+/* Hover on the Nav First Menu Elements */
+.header-firstmenu ul li a:hover {
+    color: yellow;
+}
+
 
