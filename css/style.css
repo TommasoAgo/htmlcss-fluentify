@@ -163,7 +163,25 @@ nav ul li {
 }
 
 /* Columns Titles */
+.col h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #7cbb02;
+}
 
+.col hr {
+    margin: 30px 120px;
+}
+
+/* Columns Text */
+.col p {
+    font-size: 15px;
+    color: #828282;
+}
+
+.col h2, p {
+    line-height: 28px;
+}
 
 
 
