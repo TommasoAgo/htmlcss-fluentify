@@ -34,6 +34,14 @@ body {
     float: left;
 }
 
+/* Help Button */
+.help {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 20%;
+}
+
 /* Green Buttons */
 .button {
     display: inline-block;
@@ -182,6 +190,8 @@ nav ul li {
 .col h2, p {
     line-height: 28px;
 }
+
+
 
 
 
