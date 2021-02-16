@@ -138,3 +138,24 @@ nav ul li {
     color: #808080;
 }
 
+/* First Section */
+.first-section .col {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.col-center {
+    margin: 0 5%;
+}
+
+/* IMG Container */
+.img-container {
+    width: 60%;
+    margin: auto;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+
+
